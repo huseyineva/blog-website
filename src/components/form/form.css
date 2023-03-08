@@ -1,0 +1,39 @@
+.form {
+  background-color: #fff;
+  margin-bottom: 10%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 2px 5px #fff;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+.logOut {
+  outline: none;
+  width: max-content;
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border: 0;
+  border-radius: 10px;
+}
+
+.logOut:hover {
+  background-color: black;
+  color: #fff;
+}
